@@ -2,6 +2,7 @@ from enemy import Enemy
 from space_ship import Spaceship, Player
 from setting import *
 
+
 class Game:
     def __init__(self):
         pygame.init()
