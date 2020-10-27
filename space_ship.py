@@ -5,10 +5,8 @@ class Spaceship:
         self.y = y
         self.health = health
 
-
     def draw(self, screen):
         screen.blit(self.ship_img, (self.x, self.y))
-
 
 class Player(Spaceship):
     def __init__(self, x, y, health = 100):
