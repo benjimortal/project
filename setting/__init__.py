@@ -19,10 +19,8 @@ lives = 6
 player_speed = 5
 main_font = pygame.font.SysFont("Arial", 40, 2)
 
-
 lives_label = main_font.render(f"Lives: {lives}", 1, (YELLOW), 4)
 levels_label = main_font.render(f"Level: {level}", 1, (YELLOW), 4)
-
 
 #load image
 enemy_1 = pygame.image.load(os.path.join("enemies", "1.png"))
